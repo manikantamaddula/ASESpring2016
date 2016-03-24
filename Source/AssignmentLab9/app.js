@@ -43,8 +43,7 @@ angular.module('starter', ['ionic', 'ui.router','ngCordova'])
     
     $scope.text='Hello world!';
 
-    //city = document.getElementById('cityname').value;
-    city = 'Chicago';
+    city = document.getElementById('cityname').value;
         $scope.city1='Name: '+city;
     var weather = { };
     console.log('start')
